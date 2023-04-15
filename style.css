@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: #3a4764;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cal-container {
+    width: 400px;
+  }
+  
+  .show-case {
+    color: #eae3dc;
+  }
+  .theme-selector{
+    display: flex;
+  }
+  .theme-slide{
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .showcase nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .showcase ul {
+    margin-left: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .showcase .up{
+    position: relative;
+    left: 13px; 
+  }
+  .label{
+    justify-content: space-around;
+  }
+  .swipe{
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 55%;
+    
+    border-radius: 20px;
+    background-color: hsl(223, 31%, 20%);
+}
+  .swipe .control{
+    position: relative;
+    display: inline-flex;
+    border-radius: 50px;
+    width: 15px;
+    height: 80%;
+    background-color: #d03f2f;
+  }
+
+  .control:hover,
+.swipe:hover .control {
+    filter: brightness(200%);
+}
+  
+  .section {
+    background-color: #182034;
+    border-radius: 7px;
+    height: 70px;
+  }
+  
+  .section h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    color: #ededed;
+    margin-top: 20px;
+  }
+  
+  .main {
+    background-color: #182034;
+    margin-top: 30px;
+    height: 53vh;
+  }
+  
+  .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .section1 .num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .section1 .num input {
+    margin-left: 32px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3a4764;
+  }
+  
+  .section1 .numb {
+    background-color: #637097;
+    margin-left: 32px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .section2 .num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .section2 .num input {
+    margin-left: 32px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3a4764;
+  }
+  
+  .section3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .section3 .num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .section3 .num input {
+    margin-left: 32px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3a4764;
+  }
+  
+  .section4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .section4 .num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .section4 .num input {
+    margin-left: 32px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3a4764;
+  }
+  
+  .two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .two .colo {
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  
+  .two .colo input {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #637097;
+    border-color: #637097;
+  }
+  
+  .two .colo1 {
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  
+  .two .colo1 input {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #d03f2f;
+    border-color: #d03f2f;
+  }
+  @media only screen and (max-width: 600px){
+    .cal-container{
+      width: 300px;
+    }
+    .theme-slide{
+      margin-left: 94px;
+    }
+  }
+    
+  
